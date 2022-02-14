@@ -10,7 +10,7 @@ using TimeSeries2.Models;
 namespace TimeSeries2.Controllers
 {
     [ApiController]
-    [Route("api/[controller][action]")]
+    [Route("api/[controller]/[action]")]
     public class TimeSeriesController : ControllerBase
     {
       

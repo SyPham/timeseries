@@ -6,6 +6,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using MongoDB.Bson.Serialization.Attributes;
+
 namespace TimeSeries2.Data
 {
     [AttributeUsage(AttributeTargets.Class, Inherited = false)]
